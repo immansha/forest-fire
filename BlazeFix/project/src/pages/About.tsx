@@ -50,26 +50,26 @@ export default function About() {
     { name: 'Express.js', description: 'Web application framework', icon: Code }
   ];
 
-  const team = [
-    {
-      name: 'Dr. Sarah Chen',
-      role: 'Lead Data Scientist',
-      image: 'https://images.pexels.com/photos/3184360/pexels-photo-3184360.jpeg?auto=compress&cs=tinysrgb&w=400',
-      bio: 'PhD in Environmental Science with 10+ years in climate modeling and fire prediction systems.'
-    },
-    {
-      name: 'Michael Rodriguez',
-      role: 'Full Stack Developer',
-      image: 'https://images.pexels.com/photos/3184360/pexels-photo-3184360.jpeg?auto=compress&cs=tinysrgb&w=400',
-      bio: 'Expert in MERN stack development with focus on real-time data visualization and mapping.'
-    },
-    {
-      name: 'Dr. Emily Johnson',
-      role: 'Forest Ecologist',
-      image: 'https://images.pexels.com/photos/3184360/pexels-photo-3184360.jpeg?auto=compress&cs=tinysrgb&w=400',
-      bio: 'Specialist in forest ecosystem dynamics and fire behavior analysis with 15+ years experience.'
-    }
-  ];
+  //const team = [
+   // {
+   //   name: 'Dr. Sarah Chen',
+   //   role: 'Lead Data Scientist',
+   //   image: 'https://images.pexels.com/photos/3184360/pexels-photo-3184360.jpeg?auto=compress&cs=tinysrgb&w=400',
+   //   bio: 'PhD in Environmental Science with 10+ years in climate modeling and fire prediction systems.'
+   // },
+   // {
+    //  name: 'Michael Rodriguez',
+    //  role: 'Full Stack Developer',
+    //  image: 'https://images.pexels.com/photos/3184360/pexels-photo-3184360.jpeg?auto=compress&cs=tinysrgb&w=400',
+    //  bio: 'Expert in MERN stack development with focus on real-time data visualization and mapping.'
+   // },
+  //  {
+      //name: 'Dr. Emily Johnson',
+      //role: 'Forest Ecologist',
+      //image: 'https://images.pexels.com/photos/3184360/pexels-photo-3184360.jpeg?auto=compress&cs=tinysrgb&w=400',
+      //bio: 'Specialist in forest ecosystem dynamics and fire behavior analysis with 15+ years experience.'
+   // }
+ // ];
 
   const stats = [
     { label: 'Forests Monitored', value: '10,000+', icon: Globe },
